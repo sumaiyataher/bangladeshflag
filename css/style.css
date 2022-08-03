@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.green{
+    width: 600px;
+    height: 300px;
+    background: green;
+}
+
+.red{
+    width: 180px;
+    height: 180px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    z-index:1 ;
+}
+
+.green .fb{
+    width: 180px;
+    position: fixed;
+    top:40%;
+    right:-125px;
+    transition: 1sec;
+}
+.green .fb:hover{
+    right: -2px;
+}
+
+.green .twt{
+    width: 200px;
+    position: fixed;
+    top:50%;
+    right:-125px;
+    transition: 1sec;
+}
+.green .twt:hover{
+    right: -2px;
+}
+
+
+.green .print{
+    width: 200px;
+    position: fixed;
+    top:60%;
+    right:-110px;
+    transition: 1sec;
+}
+.green .print:hover{
+    right: -2px;
+}
+
+.social-icons{
+    width: 180%;
+    display: block;
+    text-align: center;
+    padding: 40px 0px;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a{
+   display: block;
+   width: 80px;
+   height: 80px;
+   font-size: 25px;
+   margin: 0px 15px;
+border: 2px solid black;
+   color: white;
+   background-color: black;
+   border-radius: 100%;
+
+}
+
+.social-icons li :hover{
+    background: transparent;
+    color: black;
+    border-radius: 100%;
+}
